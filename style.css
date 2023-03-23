@@ -28,3 +28,8 @@
   color: white;
   line-height: 35px;
 }
+@include media-breakpoint-up(sm) {
+  .container {
+    width: fit-content;
+  }
+}
