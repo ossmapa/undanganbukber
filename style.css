@@ -28,8 +28,18 @@
   color: white;
   line-height: 35px;
 }
-@media (max-width: 576px) {
-  body {
-    max-width: 576px;
+@media (max-width: 767px) {
+  .container-fluid {
+    max-width: 767px;
+  }
+}
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 992px;
+  }
+}
+@media (min-width: 992px) {
+  .container-fluid {
+    max-width: 100%;
   }
 }
