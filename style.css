@@ -3,12 +3,14 @@
   margin: 0;
 } body {
   background-color: #FFFBE9;
-} .rma {
+}.rma {
   font-family: 'Berkshire Swash', cursive;
   font-size: 50px;
   text-align: center;
   margin-top: 120px;
-} .footer {
+}.navbar-brand:hover {
+  color: #949494;
+}.footer {
   background-color: black;
 } .foot {
   font-size: 12px;
@@ -27,6 +29,8 @@
   font-size: 20px;
   color: white;
   line-height: 35px;
+}.kotak:hover {
+  background-color: #2AF275;
 }.i {
   height: 35px;
   width: 150px;
@@ -45,6 +49,8 @@
   color: white;
   line-height: 35px;
   font-size: 20px;
+}.lok:hover {
+  background-color: #13AE78;
 }.na {
   font-size: 20px;
   margin: 5px 0;
