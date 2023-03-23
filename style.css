@@ -3,6 +3,7 @@
   margin: 0;
 } body {
   background-color: #FFFBE9;
+  max-width: 100%;
 } .rma {
   font-family: 'Berkshire Swash', cursive;
   font-size: 50px;
